@@ -28,7 +28,6 @@ This project provides a simple and efficient way to remove temporary files and f
 
 ## Preview
 
-<!-- Add your image below -->
 ![Preview](https://i.pinimg.com/736x/8a/54/3b/8a543b0afe9c31f95da8ffb1bda5c469.jpg) 
 
 
