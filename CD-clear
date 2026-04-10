@@ -1,0 +1,16 @@
+@echo off
+echo Limpando arquivos temporarios...
+
+del /q /f /s %temp%\*
+del /q /f /s C:\Windows\Temp\*
+
+echo Limpando cache do Windows Update...
+net stop wuauserv
+del /q /f /s C:\Windows\SoftwareDistribution\Download\*
+net start wuauserv
+
+echo Limpando logs...
+del /q /f /s C:\Windows\Logs\*
+
+echo Limpeza concluida!
+pause
