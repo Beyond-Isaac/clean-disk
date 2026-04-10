@@ -13,4 +13,4 @@ echo Limpando logs...
 del /q /f /s C:\Windows\Logs\*
 
 echo Limpeza concluida!
-pause
+pause 
